@@ -62,3 +62,34 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+
+.start{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #d2dae2;
+  background-color: #1e272e;
+  border: 1rem solid white;
+  padding: 20px;
+  border-radius:20% ;
+}
+.restart{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #d2dae2;
+    background-color: #1e272e;
+    border: 1rem solid white;
+    padding: 20px;
+    border-radius:20% ;
+    display: none;
+
+}
+
+.btn-container{
+  /* border:2px red solid; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top:40vh;
+  left:5vw;
+}
